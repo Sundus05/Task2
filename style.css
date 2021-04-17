@@ -1,0 +1,464 @@
+body{
+    margin: 0;
+
+}
+.main-container{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* Header */
+.header{
+    /* background-color: purple; */
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 0;
+    margin: 0;
+}
+.logo{
+    
+    display: none;
+}
+.nav-buttons{
+    display: none;
+}
+
+/* Banner */
+
+
+
+
+
+.sub-container{
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 55px;
+    padding-bottom: 80px;
+    background-image: url(https://thegentlymad.com/wp-content/uploads/2018/04/bg-hero_bottom.svg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: contain;
+
+}
+.subscribe{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 12px;
+    height: 25px;
+    width: 165px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+
+}
+.subscribe:hover{
+    opacity: 0.82;
+
+}
+.first-line{
+    color: #6800cc;
+    font-weight: bold;
+}
+.page-title{
+    font-size: 53px;
+    margin-top: -10px;
+}
+
+
+.body-container,
+.image-container,
+.text-container{
+    /* background-color: cadetblue; */
+    padding: 18px;
+
+
+}
+.body-container{
+    background: #e9eef4;
+
+}
+
+.text{
+    color: #6800cc;
+    font-weight: bold;
+}
+
+
+.image-container{
+    max-width: 100%;
+    box-sizing: border-box;
+
+}
+
+.tgm{
+    width: 100%;
+    height: auto;
+    display: inline;
+    border-radius: 4px;
+    vertical-align: baseline;
+    margin: auto;
+    box-shadow: 0 10px 15px -10px rgb(30 45 62 / 21%), 0 5px 40px -10px rgb(31 44 60 / 10%);
+}
+.podcast-button{
+    height: 80px;
+    width: 190px;
+ 
+
+}
+
+.footer{
+    background-color:#222328 ;
+    height: 530px;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+
+
+}
+.list,
+.copyright-footer{
+    padding-top: 30px;    
+    color: #a5a9b6;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+
+.list-style li{
+    list-style-type: none;
+    padding: 12px;
+}
+li:hover{
+    opacity: 0.5;
+}
+.first-post-wrap{
+    display: block;
+}
+.image-field{
+    max-width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    border-bottom: none;
+    border-radius: 0;
+    overflow: hidden;
+    height: 300px;
+}
+
+.image-field img{
+    transition: transform .4s ease-out;
+}
+.image-field:hover img{
+    transform: scale(1.2);
+}
+
+.text-field{
+    height: 120px;
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 30px;
+    border: 1px solid #e5e5e5;
+    border-radius: 0 0 7px 7px;
+    border-top: none;
+    box-shadow: 0 10px 15px -10px rgb(30 45 62 / 21%), 0 5px 40px -10px rgb(31 44 60 / 10%);
+    text-align: center;
+    font-size: 22px;
+
+
+}
+.side-bar{
+    height: 22px;
+    background-color: #151922;
+    color: white;
+    padding: 12px;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    border-radius: 3.5px 0 0 0;
+    /* text-decoration: underline;
+    text-decoration-color: #6800cc ; */
+}
+
+.bonus-container{
+    padding: 40px;
+    height: 300px;
+    width: auto;
+    background-color: #151922;
+    border-top: solid;
+    border-top-width: 12px;
+    border-top-color: #6800cc;
+    color: white;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.bonus-button{
+    display: block;
+    text-align: center;
+    background-color: #6800cc;
+    padding: 10px;
+    align-self: flex-end center;
+    border-radius: 4px;
+    font-size: 20px;
+    padding-top: 5px;
+    cursor: pointer;
+    transition: box-shadow 0.4s;
+    transition: top 2s linear;
+    position:relative;
+}
+.bonus-button:hover{
+    background-color:#6800cc;
+    opacity: 0.8;
+    bottom: 2px;
+    box-shadow: 1px 5px 10px gray;
+    cursor: pointer;
+
+}
+
+
+
+.fillout-form{
+    background-image: linear-gradient(rgba(101,103,118, 0.2), rgba(222, 224, 236, 0.2)), 
+    (url(https://thegentlymad.com/wp-content/uploads/2018/04/bg-signup_alt2.jpg));
+    /* background-image: ; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #6b7683;    
+    height: auto;
+    color: white;
+    padding: 70px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+
+    
+}
+
+
+#form-text{
+    height: 20px;
+    width: 390px;
+    outline: none;
+    padding:5px;
+    margin-top: 3px;
+    border: none;
+}
+
+input{
+    width: 100%;
+
+}
+
+.submit-button{
+    display: block;
+    text-align: center;
+    background-color: #6800cc;
+    padding: 10px;
+    align-self: flex-end;
+    border-radius: 4px;
+    font-size: 20px;
+    margin-top: 20px;
+    width: 100%;
+    cursor: pointer;
+    transition: box-shadow 0.4s;
+    transition: top 2s linear;
+    position:relative;
+    
+}
+
+.submit-button:hover{
+    background-color:#6800cc;
+    opacity: 0.8;
+    bottom: 2px;
+    box-shadow: 1px 5px 10px black;
+    cursor: pointer;
+  }
+  .podcast-button:hover{
+      opacity: 0.5;
+
+}
+
+
+
+/* Media Queries */
+@media screen and (min-width: 768px){
+
+    .header{
+        /* background-color: purple; */
+        display: inline-flex;
+        flex-direction: row;
+        width: 100%;
+        margin-top: 40px;
+
+       
+    }
+    .logo{
+
+        display: initial;
+        margin-left: 90px;
+        justify-content: flex-start;
+    
+    }
+
+    .logo img{
+        height: 130px;
+        width: 180px;
+
+    }
+    body{
+        border-top: 12px solid #8500ff;
+    }
+
+   
+
+    .subscribe{
+        display: none;
+    }
+    .sub-container{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        box-sizing: border-box;
+        justify-content:space-evenly;
+      
+    }
+    .image-container{
+        box-sizing: border-box;
+    }
+
+    .image-container,
+    .text-container{   
+    display: initial;
+    height: initial;
+    width: initial;
+
+    }
+    .image-container{
+        padding-right: 60px;
+        padding-left: 0;
+    }
+    .text-container{
+        padding-right: 0px;
+        padding-left: 60px;
+        text-align: left;
+        margin-right: 30px;
+    }
+
+    
+    .body-container{
+    /* background-color: cadetblue; */
+    padding: 60px;
+    }
+   
+
+
+    .bonus-container{
+        height: initial;
+        width: initial;
+        overflow: hidden;
+    }
+    .posts-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-left: 50px;
+        margin-right: 50px;
+        
+    } 
+    .card{
+        flex: 0 2 28%;
+     
+    }
+   
+    .image-field{
+        height: initial;
+    }
+    
+    .fillout-form{
+        padding-left: 450px;
+        padding-right: 450px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .list-style{
+        justify-content:center;
+        display: flex;
+        flex-direction: row;
+
+    }
+    .list,
+    .copyright-footer{
+        align-self: center;
+    }
+    .nav-buttons{
+        display: flex;
+        justify-content: flex-end;
+        text-decoration: none;
+        margin-top: 40px;
+
+        
+    }
+    ul{
+        justify-content: flex-end;
+        padding-inline-start: 0;
+
+
+    }
+    .header .nav-buttons ul{
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: auto;
+        margin-top: 10px;
+        list-style-type: none;
+    
+
+    }
+    .header .nav-buttons ul a{
+        padding: 10px 28px;
+        color: rgb(110, 109, 109);
+        margin-left: 70px;
+
+    }
+    .header .nav-buttons ul a:hover{
+        opacity: 0.2;
+    }
+    .nav-buttons ul a.subscribe-button{
+        background-color: #6800cc;
+        position: relative;
+        padding: 15px 20px;
+        border-radius: 22px;
+        transition: box-shadow 0.4s;
+        transition: top 2s linear;
+    
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    .header .nav-buttons ul a.subscribe-button {
+        color: white;
+    }
+    .nav-buttons ul a.subscribe-button:hover{
+        background-color:#6800cc;
+        opacity: 0.8;
+        bottom: 2px;
+        box-shadow: 1px 5px 10px gray;
+        cursor: pointer;
+      }
+      input{
+        width: 100%;
+    
+    }
+}
